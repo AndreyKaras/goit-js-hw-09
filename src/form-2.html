@@ -8,18 +8,29 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-   
-
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
-        <h1 class="main-title">
-          Form
-        </h1>
-      
+        <h1 class="main-title">Form</h1>
+
+        <form class="feedback-form" autocomplete="off">
+        
+          <ul>
+            <li class="form-item"><label class="form-label">
+            Email
+            <input type="email" name="email" autofocus />
+          </label></li>
+          <li class="form-item last">
+          <label class="form-label form-label--message">
+            Message
+            <textarea name="message" rows="8" placeholder="Type area"></textarea>
+          </label></li>
+          </ul>
+           <button type="submit" class="form-buttonss">Submit</button>
+        </form>
       </div>
     </main>
 
-    <script type="module" src="./js/2-gallery.js" ></script>
+    <script type="module" src="./js/2-gallery.js"></script>
   </body>
 </html>
